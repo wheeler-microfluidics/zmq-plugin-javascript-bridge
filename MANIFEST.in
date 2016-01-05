@@ -1,0 +1,7 @@
+include RELEASE-VERSION
+include version.py
+include setup.py
+include paver-minilib.zip
+recursive-include zmq_plugin_javascript_bridge *
+recursive-exclude zmq_plugin_javascript_bridge *.pyc
+recursive-exclude zmq_plugin_javascript_bridge *~
